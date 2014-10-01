@@ -5,9 +5,8 @@ This is the application based on Open Source projects
 
 High level Architecture
 
-    -lb-> (https) --> apache -> apache ---> nosqldb -------------- 
-aws  								 |
-    -lb-> (wss) --> ngnix --> kamailio -> freeswitch -> asterisk -
+    -lb --o (https) --o apache -o apache ---o nosqldb ---------o
+    -lb --o (wss) ----o ngnix --o kamailio -o freeswitch -o asterisk 
 
 Software
 --------------------------------------
