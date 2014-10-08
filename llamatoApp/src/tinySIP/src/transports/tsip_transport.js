@@ -257,7 +257,7 @@ tsip_transport.prototype.message_addvia = function(s_branch, o_message){
 		o_message.o_hdr_firstVia = new tsip_header_Via(tsip_header_Via.prototype.__s_proto_name_default, tsip_header_Via.prototype.__s_proto_version_default,
 			this.s_via_protocol, this.get_local_ip(), this.get_local_port());
 		
-        o_message.o_hdr_firstVia.add_param("rport", null);
+        //o_message.o_hdr_firstVia.add_param("rport", null);
 	}
 	
 	/* updates the branch */

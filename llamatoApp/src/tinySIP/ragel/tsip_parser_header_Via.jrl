@@ -165,7 +165,7 @@ tsip_header_Via.prototype.toString = function(){
 			this.s_comp ? ";comp=" : "",
 			this.s_comp ? this.s_comp : "",
 
-			this.i_rport>=0 ? (this.i_rport>0?";rport=":";rport") : "",
+			this.i_rport>=0 ? (this.i_rport>0?";rport=":";rPort") : "",
 			this.i_rport>0 ? this.i_rport : "",
 
 			this.i_ttl>=0 ? (this.i_ttl>0?";ttl=":";ttl") : "",
