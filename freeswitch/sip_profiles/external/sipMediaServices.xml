@@ -1,0 +1,13 @@
+<include>
+  <!-- Llamato Media Services Gateway-->
+  <gateway name="LlamatoMediaServices">
+  <param name="disable-srv" value="true" />
+  <param name="proxy" value="128.199.205.178:5070"/>
+  <!-- username/password is required even though you are not registering -->
+  <param name="username" value="llamato"/>
+  <param name="password" value="llamato"/>
+  <param name="user-agent-string" value="Llamato CCP"/>
+  <param name="retry-seconds" value="30"/>
+  <param name="register" value="false"/>
+  </gateway>
+</include>

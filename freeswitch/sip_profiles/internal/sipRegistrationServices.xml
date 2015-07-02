@@ -1,0 +1,10 @@
+<include>
+  <!-- Llamato Media Services Gateway-->
+  <gateway name="LlamatoRegistrationServices">
+  <param name="proxy" value="192.241.231.30:5060"/>
+  <param name="retry-seconds" value="30"/>
+  <param name="auth-calls" value="false"/>
+  <param name="register" value="false"/>
+  <!--param name="ping" value="30"/-->
+  </gateway>
+</include>

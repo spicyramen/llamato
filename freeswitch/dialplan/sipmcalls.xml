@@ -1,0 +1,13 @@
+<include>
+	<context name="sipMediaContext">
+	<extension name="sip media calls">
+	<action application="log" data="INFO Processing REGEX"/>	
+	<condition field="destination_number" expression="^(10[0-9][0-9])$">
+		<action application="set" data="dialed_number=$1"/>
+		<action application="log" data="INFO Processing call ${dialed_number}"/>
+		<action application="set" data="bypass_media=true"/>
+		<action application="bridge" data="sofia/gateway/LlamatoMediaServices/${dialed_number}"/>
+	</condition>
+	</extension>
+	</context>
+</include>
