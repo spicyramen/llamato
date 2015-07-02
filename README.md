@@ -9,15 +9,15 @@ High level Architecture
     -lb -- (wss) ---- ngnix -- kamailio - freeswitch -o asterisk 
 
 ## Software
-#FrontEnd	
+**FrontEnd**
 	Apache Web Server			
-#FrontEnd	
+**FrontEnd**
 	Nginx Load Balancer
-#App	 	
+**App**
 	sipML5 Application Server 	
-#SipRegistrar	and Sbc
+**SipRegistrar	and Sbc**
 	Kamalio Sip Registrar			
-#SipCallControl	
+**SipCallControl**
 	FreeSwitch Sip B2BUA		
-#Media	
+**Media**
 	Asterisk,mcuWeb,Jitsi
