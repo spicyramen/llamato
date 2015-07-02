@@ -11,19 +11,25 @@ High level Architecture
 ## Software
 
 **FrontEnd**
-    Apache Web Server			
+	
+	Apache Web Server			
 
 **FrontEnd**
-    Nginx Load Balancer
+	
+	Nginx Load Balancer
 
 **App**
-    sipML5 Application Server 	
+
+	sipML5 Application Server 	
 
 **SipRegistrar	and Sbc**
-    Kamalio Sip Registrar			
+	
+	Kamalio Sip Registrar			
 
 **SipCallControl**
-    FreeSwitch Sip B2BUA		
+
+	FreeSwitch Sip B2BUA		
 
 **Media**
-    Asterisk,mcuWeb,Jitsi
+
+	Asterisk,mcuWeb,Jitsi
