@@ -5,8 +5,8 @@ This solution is based on Open Source projects
 
 High level Architecture
 
-    -lb -- (https) -- apache - apache --- mysql ---------o
-    -lb -- (wss) ---- ngnix -- kamailio - freeswitch -o asterisk 
+    -lb -- (https) -- apache --- apache --- mysql ---------o
+    -lb -- (wss) ---- haproxy -- kamailio - freeswitch ----o asterisk 
 
 ## Software
 
@@ -16,7 +16,7 @@ High level Architecture
 
 **FrontEnd**
 	
-	Nginx Load Balancer
+	HA Proxy Load Balancer
 
 **App**
 
